@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>在线聊天室</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="chat-container">
+    <h2>在线聊天室</h2>
+    <p id="welcomeMsg"> | <a href="logout">退出</a></p>
+    <div id="messages" class="messages-container"></div>
+    <form method="post" action="sendMessage" class="message-form">
+        <input type="text" name="message" placeholder="输入消息..." required>
+        <input type="submit" value="发送">
+    </form>
+</div>
+
+<script src="js/chat.js"></script>
+</body>
+</html>
